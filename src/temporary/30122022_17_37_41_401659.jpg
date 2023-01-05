@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>LearnPython.com </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+
+
+
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="preload stylesheet">
+
+
+
+    <link href="https://learnpython.com/scss/main.css" rel="stylesheet">
+
+    <script type='text/javascript' src='https://cdn.learnpython.com/lpy/blog/js/blog-static.min.js'></script>
+    <script type='text/javascript' src='/blog-js/academy.js'></script>
+
+
+
+
+
+    <link rel="shortcut icon" href="https://cdn.learnpython.com/lpy/blog/img/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+    <meta property="og:title" content="404 Page not found" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="LeanSQL.com" />
+
+    <meta itemprop="name" content="404 Page not found">
+    <meta itemprop="description" content="">
+
+
+
+    <meta name="twitter:title" content="404 Page not found" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:site" content="@LearnSQLcom" />
+
+
+
+
+    <meta property="og:locale" content="en_US" />
+
+
+
+    <meta name="description" content="" />
+
+    <meta property="twitter:creator" content="@LearnSQLcom" />
+    <link rel="canonical" href="" />
+
+
+    <link rel="icon" href="https://cdn.learnpython.com/lpy/blog/img/favicon.ico" type="image/x-icon" sizes="32x32" />
+    <link rel="icon" href="https://cdn.learnpython.com/lpy/blog/img/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="https://cdn.learnpython.com/lpy/blog/img/favicon-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://cdn.learnpython.com/lpy/blog/img/favicon-270x270.png" />
+
+
+
+
+
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T9F33V3');</script>
+
+
+
+</head>
+
+<body class="">
+    <header class="site-header">
+        <nav role="navigation">
+            <div class="site-navigation">
+                <a href="/" class="site-logo">
+                    <svg width="185.697px" height="41.732px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.697 41.732">
+                        <path d="M0,37.187a2.955,2.955,0,0,1,.734-1.982,2.629,2.629,0,0,1,2.1-.854,2.627,2.627,0,0,1,2.1.854,3.04,3.04,0,0,1,0,3.962,2.62,2.62,0,0,1-2.1.854,2.622,2.622,0,0,1-2.1-.854A2.947,2.947,0,0,1,0,37.187Z" fill="#006dff" />
+                        <path d="M14.539,37.081c0,1.8.7,2.54,2.413,2.54a8.847,8.847,0,0,0,1.518-.145c.585-.092.923.164.923.749v.31a.86.86,0,0,1-.713.933,9.154,9.154,0,0,1-2.139.264c-2.7,0-4.579-1.516-4.579-4.651s1.883-4.662,4.579-4.662a9.108,9.108,0,0,1,2.139.266.858.858,0,0,1,.713.931v.312c0,.585-.4.822-1.088.713a9.459,9.459,0,0,0-1.353-.12C15.243,34.521,14.539,35.28,14.539,37.081Z" fill="currentColor" />
+                        <path d="M20.758,37.081c0-2.971,1.636-4.662,4.625-4.662s4.625,1.691,4.625,4.662-1.637,4.651-4.625,4.651S20.758,40.042,20.758,37.081Zm6.672,0c0-1.773-.676-2.523-2.047-2.523s-2.048.75-2.048,2.523c0,1.755.677,2.513,2.048,2.513S27.43,38.836,27.43,37.081Z" fill="currentColor" />
+                        <path d="M46.033,36.578v4.15a.76.76,0,0,1-.84.84h-.814a.761.761,0,0,1-.841-.84V36.45c0-1.307-.557-1.892-1.763-1.892s-1.655.585-1.655,1.892v4.278a.76.76,0,0,1-.841.84h-.8a.761.761,0,0,1-.841-.84V36.45c0-1.307-.448-1.892-1.654-1.892s-1.765.585-1.765,1.892v4.278a.76.76,0,0,1-.841.84h-.813a.761.761,0,0,1-.841-.84v-4.15c0-3.053,1.582-4.159,4.04-4.159,1.627,0,2.578.467,3.117,1.289.53-.822,1.489-1.289,3.108-1.289C44.452,32.419,46.033,33.525,46.033,36.578Z" fill="currentColor" />
+                        <path d="M.687,17.464V3.03A1.3,1.3,0,0,1,2.128,1.589H3.663A1.305,1.305,0,0,1,5.106,3.03V16.664c0,.736.218,1.316,1.519,1.316h6.707a1.306,1.306,0,0,1,1.443,1.442v1.1a1.306,1.306,0,0,1-1.443,1.441H5.544C2.175,21.961.687,20.723.687,17.464Z" fill="currentColor" />
+                        <path d="M28.042,15.677l-6.629.689c.564,1.756,1.99,2.382,4.074,2.382a15.567,15.567,0,0,0,3.589-.5c1.019-.235,1.63.2,1.63,1.223v.469a1.51,1.51,0,0,1-1.222,1.615,18.527,18.527,0,0,1-4.764.689c-4.749,0-7.93-2.586-7.93-7.976,0-5.093,2.7-7.993,7.961-7.993,4.419,0,7.036,2.069,7.036,5.987C31.787,14.455,30.862,15.379,28.042,15.677Zm-.377-3.823c0-1.49-.908-2.289-2.914-2.289-2.179,0-3.338.988-3.573,3.636l5.406-.549C27.493,12.559,27.665,12.386,27.665,11.854Z" fill="currentColor" />
+                        <path d="M48.691,12.292v5.172c0,3.259-1.489,4.5-4.858,4.5H40.276c-3.825,0-6.16-1.019-6.16-4.7,0-3.7,2.352-4.717,6.16-4.717h4.058v-.251c0-1.724-1.363-2.476-3.651-2.476a21.493,21.493,0,0,0-4.043.486c-.987.188-1.583-.267-1.583-1.27V8.453a1.591,1.591,0,0,1,1.5-1.63,23.791,23.791,0,0,1,4.748-.549C45.557,6.274,48.691,8.076,48.691,12.292Zm-4.357,4.952V15.661H40.495c-1.9,0-2.288.439-2.288,1.6,0,1.143.392,1.583,2.273,1.583h2.287C44.114,18.843,44.334,18.294,44.334,17.244Z" fill="currentColor" />
+                        <path d="M61.394,7.842V8.75c0,.925-.549,1.442-1.583,1.458-3.29.047-3.432.329-3.432,1.5V20.52a1.3,1.3,0,0,1-1.441,1.441H53.386a1.305,1.305,0,0,1-1.442-1.441V11.085c0-3.588,1.286-4.56,7.915-4.669A1.316,1.316,0,0,1,61.394,7.842Z" fill="currentColor" />
+                        <path d="M79.1,13.521v7a1.307,1.307,0,0,1-1.444,1.443H76.181a1.306,1.306,0,0,1-1.443-1.443V13.459c0-2.761-1-3.529-3.357-3.529s-3.356.768-3.356,3.529v7.059a1.307,1.307,0,0,1-1.444,1.443H65.107a1.307,1.307,0,0,1-1.444-1.443v-7c0-5.63,2.84-7.262,7.718-7.262S79.1,7.891,79.1,13.521Z" fill="currentColor" />
+                        <path d="M82.934,20.518V6.071c0-3.262,1.49-4.5,4.862-4.5H89.93c6.1,0,9.317,1.38,9.317,6.917s-3.216,6.95-9.317,6.95H87.357v5.082a1.306,1.306,0,0,1-1.443,1.443H84.376A1.306,1.306,0,0,1,82.934,20.518ZM94.823,8.455c0-2.463-1.176-3.2-4.407-3.2H88.644c-1.083,0-1.287.565-1.287,1.49v4.942h3.059C93.647,11.687,94.823,10.918,94.823,8.455Z" fill="#006dff" />
+                        <path d="M114.58,6.542h1.475A1.305,1.305,0,0,1,117.5,7.984v14.5c0,4.157-3.261,6.039-7.481,6.039a17.143,17.143,0,0,1-4.236-.565,1.5,1.5,0,0,1-1.223-1.616v-.58c0-1.02.6-1.475,1.6-1.255a15.932,15.932,0,0,0,3.389.439c2.117,0,3.592-.706,3.592-2.462v-.33c-.769.063-1.506.094-2.2.094-5.491,0-8.752-2.008-8.752-7.984V7.984a1.305,1.305,0,0,1,1.442-1.442h1.475a1.306,1.306,0,0,1,1.443,1.442v6.008c0,3.529,1.224,4.58,4.267,4.58a22.288,22.288,0,0,0,2.321-.14V7.984A1.306,1.306,0,0,1,114.58,6.542Z" fill="#006dff" />
+                        <path d="M129.474,10.118h-4.267v6.149c0,1.6.706,2.274,2.432,2.274.831,0,1.364-.172,1.913-.172.973,0,1.35.376,1.35,1.145V20.3a1.411,1.411,0,0,1-1.162,1.538c-4.988,1.191-8.971-.079-8.971-5.569V4.408a1.305,1.305,0,0,1,1.442-1.443h1.553a1.306,1.306,0,0,1,1.443,1.443V6.542h4.267a1.306,1.306,0,0,1,1.443,1.442v.691A1.306,1.306,0,0,1,129.474,10.118Z" fill="#006dff" />
+                        <path d="M148.507,14.243v6.275a1.307,1.307,0,0,1-1.443,1.443h-1.475a1.306,1.306,0,0,1-1.443-1.443V14.243c0-3.325-1.224-4.329-4.267-4.329-.675,0-1.443.047-2.321.109v10.5a1.307,1.307,0,0,1-1.444,1.443H134.64a1.307,1.307,0,0,1-1.444-1.443V1.443A1.308,1.308,0,0,1,134.64,0h1.474a1.307,1.307,0,0,1,1.444,1.443V6.354c.753-.063,1.49-.095,2.18-.095C145.243,6.259,148.507,8.267,148.507,14.243Z" fill="#006dff" />
+                        <path d="M151.447,14.259c0-5.1,2.808-8,7.938-8s7.936,2.9,7.936,8c0,5.083-2.807,7.984-7.936,7.984S151.447,19.342,151.447,14.259Zm11.452,0c0-3.043-1.162-4.329-3.514-4.329s-3.514,1.286-3.514,4.329c0,3.012,1.16,4.313,3.514,4.313S162.9,17.271,162.9,14.259Z" fill="#006dff" />
+                        <path d="M185.7,13.521v7a1.306,1.306,0,0,1-1.443,1.443h-1.475a1.306,1.306,0,0,1-1.442-1.443V13.459c0-2.761-1-3.529-3.357-3.529s-3.357.768-3.357,3.529v7.059a1.306,1.306,0,0,1-1.443,1.443h-1.475a1.306,1.306,0,0,1-1.442-1.443v-7c0-5.63,2.839-7.262,7.717-7.262S185.7,7.891,185.7,13.521Z" fill="#006dff" />
+                    </svg>
+                </a>
+                <div id="skip-navigation">
+                    <button class="button--ghost">Skip navigation</button>
+                </div>
+
+                <ul class="main-menu">
+                    <li class="main-menu__item main-menu__item--courses"><a href="/" title="Courses page">Courses</a>
+                    </li>
+                    <li class="main-menu__item main-menu__item--pricing"><a href="/pricing/"
+                            title="pricing page">Pricing</a></li>
+                    <li class="main-menu__item main-menu__item--library">
+                        <button title="SQL Library" id="library-button">SQL Library
+                            <svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="03-TRACKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="LearnSQL_Track_Details_Logged"
+                                        transform="translate(-1509.000000, -55.000000)" fill-rule="nonzero"
+                                        stroke="currentColor">
+                                        <g id="Navigation">
+                                            <g id="Profile" transform="translate(1356.000000, 39.000000)">
+                                                <polyline id="ico_arrow_small_bottom"
+                                                    transform="translate(159.000000, 20.033937) rotate(90.000000) translate(-159.000000, -20.033937) "
+                                                    points="155.966063 14.0339368 162.033937 20.1018105 156.10181 26.0339368">
+                                                </polyline>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                        <div class="library-modal modal" aria-hidden="true" aria-modal="true" role="dialog"
+                            aria-labelledby="SQL Library" aria-describedby="SQL Library">
+                            <div class="library-modal__layer"></div>
+                            <div class="library-modal__window modal__window">
+                                <a href="/blog">Articles</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-menu__item main-menu__item--log-in"><a href="/log-in" title="Log in page">Log in</a>
+                    </li>
+                    <li class="main-menu__item main-menu__item--create-free-account"><a class="button--primary"
+                            href="/sign-up" title="Create free account page">Create free account</a></li>
+
+
+                    <div class="main-menu__item main-menu__item--logout hide" tabindex="0" role="button">
+                        <p class="logout__full-name user-name-element">fullName</p>
+                        <svg role="document" width="13px" height="8px" viewBox="0 0 13 8" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                            <title>User profile menu open</title>
+                            <desc>Open user profile menu</desc>
+                            <g id="03-TRACKS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="LearnSQL_Track_Details_Logged" transform="translate(-1509.000000, -55.000000)"
+                                    fill-rule="nonzero" stroke="currentColor">
+                                    <g id="Navigation">
+                                        <g id="Profile" transform="translate(1356.000000, 39.000000)">
+                                            <polyline id="ico_arrow_small_bottom"
+                                                transform="translate(159.000000, 20.033937) rotate(90.000000) translate(-159.000000, -20.033937) "
+                                                points="155.966063 14.0339368 162.033937 20.1018105 156.10181 26.0339368">
+                                            </polyline>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <img class="logout__avatar avatar" src="/img/user.png" alt="avatar" />
+                    </div>
+                    <div class="logout-modal modal" aria-modal="true" role="dialog" aria-labelledby="User Profile Menu"
+                        aria-describedby="User fullName">
+                        <div class="logout-modal__layer modal__layer"></div>
+                        <div class="logout-modal__window modal__window" aria-label tabindex="-1">
+                            <div class="logout-modal__intro">
+                                <img class="logout-modal__avatar avatar" src="/img/user.png" alt="avatar" />
+                                <div class="logout-modal__name user-name-element">fullName</div>
+                            </div>
+                            <div class="logout-modal__link">
+                                <a href="/dashboard">Dashboard</a>
+                            </div>
+                            <div class="logout-modal__link">
+                                <a href="/dashboard/my-profile">My Profile</a>
+                            </div>
+                            <div class="logout-modal__link">
+                                <a href="/dashboard/payment-billing">Payment & Billing</a>
+                            </div>
+                            <div class="logout-modal__separator-border"></div>
+                            <div class="logout-modal__link logout-modal__link--logout">
+                                <a id="layout-logout-button" tabindex="0">Log out
+                                    <svg role="img" width="13px" height="14px" viewBox="0 0 13 14" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="03-TRACKS" stroke="none" stroke-width="1" fill="none"
+                                            fill-rule="evenodd">
+                                            <g id="LearnSQL_Track_Details_Logged_Profile"
+                                                transform="translate(-1478.000000, -291.000000)" fill="currentColor">
+                                                <g id="logout-Profile-menu" transform="translate(0.000000, 30.000000)">
+                                                    <path
+                                                        d="M1484.1807,273.421452 C1484.39808,273.421452 1484.57727,273.589234 1484.57727,273.798961 C1484.57727,274.008689 1484.40102,274.176471 1484.1807,274.176471 L1480.57039,274.176471 C1479.15447,274.176471 1478,273.080296 1478,271.729651 L1478,263.446819 C1478,262.098971 1479.15154,261 1480.57039,261 L1484.23945,261 C1484.45977,261 1484.63602,261.167782 1484.63602,261.377509 C1484.63602,261.587237 1484.45977,261.755018 1484.23945,261.755018 L1480.57039,261.755018 C1479.59218,261.755018 1478.79315,262.512833 1478.79315,263.446819 L1478.79315,271.729651 C1478.79315,272.660841 1479.58924,273.421452 1480.57039,273.421452 L1484.1807,273.421452 Z M1490.7139,267.322581 C1490.86959,267.467992 1490.86959,267.708479 1490.71096,267.859483 L1488.19051,270.258764 C1488.11413,270.334265 1488.01132,270.370618 1487.91144,270.370618 C1487.81156,270.370618 1487.70874,270.331469 1487.63237,270.258764 C1487.47668,270.110556 1487.47668,269.872865 1487.63237,269.724658 L1489.47718,267.968541 L1481.43111,267.968541 C1481.21079,267.968541 1481.03453,267.800759 1481.03453,267.591032 C1481.03453,267.381304 1481.21079,267.213522 1481.43111,267.213522 L1489.47718,267.213522 L1487.63237,265.457405 C1487.47668,265.309198 1487.47668,265.071507 1487.63237,264.9233 C1487.78806,264.775092 1488.03776,264.775092 1488.19345,264.9233 L1490.7139,267.322581 Z"
+                                                        id="logout-path"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </ul>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="site-header-home-navigation-layer-menu pages">
+                    <span class="site-header-home-navigation-layer-menu-cover">MENU</span>
+                    <span class="site-header-home-navigation-layer-menu-cover-active">CLOSE</span>
+                    <div class="site-header-home-navigation-layer-menu-icon pages" role="button" tabindex="0"
+                        aria-label="Toggle menu">
+                        <div class="site-header-home-navigation-layer-menu-icon top"></div>
+                        <div class="site-header-home-navigation-layer-menu-icon middle"></div>
+                        <div class="site-header-home-navigation-layer-menu-icon bottom"></div>
+                    </div>
+                    <div class="site-header-home-navigation-hamburger-wrapper pages hide">
+                        <div class="site-header-home-navigation-hamburger-layout">
+                            <ul class="site-header-home-navigation-hamburger">
+                                <li class="site-header-home-navigation-hamburger-item pages">
+                                    <a class="site-header-home-navigation-hamburger-link" href="/courses/"
+                                        title="Courses page">Courses</a>
+                                </li>
+                                <li class="site-header-home-navigation-hamburger-item">
+                                    <a class="site-header-home-navigation-hamburger-link" href="/pricing"
+                                        title="Pricing page">Pricing</a>
+                                </li>
+                                <li class="site-header-home-navigation-hamburger-item">
+                                    <a class="site-header-home-navigation-hamburger-link" href="/library"
+                                        title="Library page">Library</a>
+                                </li>
+
+                                <li class="site-header-home-navigation-hamburger-item showOnLogged hide">
+                                    <a class="site-header-home-navigation-hamburger-link" href="/dashboard">Dashboard</a
+                                        class="site-header-home-navigation-hamburger-link">
+                                </li>
+                                <li class="site-header-home-navigation-hamburger-item showOnLogged hide">
+                                    <a class="site-header-home-navigation-hamburger-link"
+                                        href="/dashboard/my-profile">My Profile</a>
+                                </li>
+                                <li class="site-header-home-navigation-hamburger-item showOnLogged hide">
+                                    <a class="site-header-home-navigation-hamburger-link"
+                                        href="/dashboard/payment-billing">Payment & Billing</a>
+                                </li>
+                            </ul>
+                            <ul class="site-header-home-navigation-below hideOnLogged">
+                                <li class="site-header-home-navigation-below-item">
+                                    <a class="site-header-home-navigation-below-item-link button--link"
+                                        href="/log-in">Log in</a>
+                                </li>
+                                <li class="site-header-home-navigation-below-item">
+                                    <a class="site-header-home-navigation-below-item-button button--primary"
+                                        href="/sign-up">Create free account</a>
+                                </li>
+                            </ul>
+                            <ul class="site-header-home-navigation-below showOnLogged hide">
+                                <li class="site-header-home-navigation-below-item">
+                                    <a class="site-header-home-navigation-below-item-link button--link"
+                                        id="hamburger-logout-button" tabindex="0">Log out&nbsp;
+                                        <svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="03-TRACKS" stroke="none" stroke-width="1" fill="none"
+                                                fill-rule="evenodd">
+                                                <g id="LearnSQL_Track_Details_Logged_Profile"
+                                                    transform="translate(-1478.000000, -291.000000)"
+                                                    fill="currentColor">
+                                                    <g id="logout-Profile-menu"
+                                                        transform="translate(0.000000, 30.000000)">
+                                                        <path
+                                                            d="M1484.1807,273.421452 C1484.39808,273.421452 1484.57727,273.589234 1484.57727,273.798961 C1484.57727,274.008689 1484.40102,274.176471 1484.1807,274.176471 L1480.57039,274.176471 C1479.15447,274.176471 1478,273.080296 1478,271.729651 L1478,263.446819 C1478,262.098971 1479.15154,261 1480.57039,261 L1484.23945,261 C1484.45977,261 1484.63602,261.167782 1484.63602,261.377509 C1484.63602,261.587237 1484.45977,261.755018 1484.23945,261.755018 L1480.57039,261.755018 C1479.59218,261.755018 1478.79315,262.512833 1478.79315,263.446819 L1478.79315,271.729651 C1478.79315,272.660841 1479.58924,273.421452 1480.57039,273.421452 L1484.1807,273.421452 Z M1490.7139,267.322581 C1490.86959,267.467992 1490.86959,267.708479 1490.71096,267.859483 L1488.19051,270.258764 C1488.11413,270.334265 1488.01132,270.370618 1487.91144,270.370618 C1487.81156,270.370618 1487.70874,270.331469 1487.63237,270.258764 C1487.47668,270.110556 1487.47668,269.872865 1487.63237,269.724658 L1489.47718,267.968541 L1481.43111,267.968541 C1481.21079,267.968541 1481.03453,267.800759 1481.03453,267.591032 C1481.03453,267.381304 1481.21079,267.213522 1481.43111,267.213522 L1489.47718,267.213522 L1487.63237,265.457405 C1487.47668,265.309198 1487.47668,265.071507 1487.63237,264.9233 C1487.78806,264.775092 1488.03776,264.775092 1488.19345,264.9233 L1490.7139,267.322581 Z"
+                                                            id="logout-path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+        </nav>
+
+
+
+    </header>
+
+
+    <div class="learnpy-blog-navigation">
+        <div class="learnpy-blog-navigation-wrapper">
+            <a href="/blog" class="learnpy-blog-navigation-item ">Articles</a>
+        </div>
+    </div>
+    <main>
+
+        <div class="container-404">
+            <div class="not-found">
+                <h1 class="not-found__header">404</h1>
+                <p class="not-found__text">
+                    The page your looking for can't be found. It may have moved or it may be no longer be available.
+                </p>
+                <a class="not-found__button button--primary" href="/">Go to homepage</a>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer__wrapper">
+            <div class="footer__main-section">
+                <div class="footer__quick-links">
+                    <h3 class="footer__header">Quick links</h3>
+                    <ul class="footer__quick-link-list">
+                        <li class="footer__quick-link-list-item"><a href="/pricing">Pricing</a></li>
+                        <li class="footer__quick-link-list-item"><a href="/blog">Blog</a></li>
+                        <li class="footer__quick-link-list-item"><a href="https://vertabelo.com">Vertabelo.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer__assistance">
+                    <h3 class="footer__header">Assistance</h3>
+                    <p class="footer__assistance-content">Need assistance? Drop us a line at:
+                        <strong>contact@learnpython.com</strong></p>
+                    <a class="button--footer" href="mailto:contact@learnpython.com">Write to us</a>
+                </div>
+                <div class="footer__follow-us">
+                    <h3 class="footer__header">Follow us</h3>
+                    <div class="footer__social-share">
+                        <a class="footer__social-share-item" href="https://www.facebook.com/LearnSQL/"
+                            aria-label="Facebook LearnSQL">
+                            <svg width="16px" height="31px" viewBox="0 0 16 31" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>LearnSQL Facebook</title>
+                                <g id="04-TRACK-DETAILS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="LearnSQL_Track_Details" transform="translate(-1173.000000, -3713.000000)"
+                                        fill="currentColor" fill-rule="nonzero">
+                                        <g id="Footer" transform="translate(0.000000, 3485.000000)">
+                                            <g id="Follow-us" transform="translate(1138.000000, 166.000000)">
+                                                <g id="social" transform="translate(0.000000, 36.000000)">
+                                                    <g id="fb" transform="translate(0.000000, -0.000000)">
+                                                        <g id="ico_fb" transform="translate(35.661344, 26.276780)">
+                                                            <path
+                                                                d="M12.27501,4.98633178 L15.016554,4.98633178 L15.016554,0.211465513 C14.543572,0.146399202 12.9169142,0 11.0224835,0 C7.06970503,0 4.36194544,2.48628388 4.36194544,7.05594101 L4.36194544,11.261477 L-1.06690143e-13,11.261477 L-1.06690143e-13,16.5994172 L4.36194544,16.5994172 L4.36194544,30.0306055 L9.70989576,30.0306055 L9.70989576,16.6006684 L13.8954114,16.6006684 L14.5598385,11.2627283 L9.70864449,11.2627283 L9.70864449,7.58523043 C9.70989576,6.04240807 10.1253191,4.98633178 12.27501,4.98633178 L12.27501,4.98633178 Z"
+                                                                id="Path"></path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer__social-share-item" href="https://www.linkedin.com/company/vertabelo/"
+                            aria-label="Linkedin Vertabelo">
+                            <svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>Vertabelo Linkedin</title>
+                                <g id="04-TRACK-DETAILS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="LearnSQL_Track_Details" transform="translate(-1238.000000, -3713.000000)"
+                                        fill="currentColor" fill-rule="nonzero">
+                                        <g id="Footer" transform="translate(0.000000, 3485.000000)">
+                                            <g id="Follow-us" transform="translate(1138.000000, 166.000000)">
+                                                <g id="social" transform="translate(0.000000, 36.000000)">
+                                                    <g id="linkedin" transform="translate(68.461078, -0.000000)">
+                                                        <g id="ico_linkedin"
+                                                            transform="translate(31.907518, 26.276780)">
+                                                            <path
+                                                                d="M6.11655622,8.44316485 C6.35067385,8.44316485 6.54037525,8.63336946 6.54037525,8.86791834 L6.54037525,8.86791834 L6.54037525,25.8519413 C6.54037525,26.0865752 6.35067385,26.2766948 6.11655622,26.2766948 L6.11655622,26.2766948 L0.841450299,26.2766948 C0.607332668,26.2766948 0.417631271,26.0865752 0.417631271,25.8519413 L0.417631271,25.8519413 L0.417631271,8.86791834 C0.417631271,8.63336946 0.607332668,8.44316485 0.841450299,8.44316485 L0.841450299,8.44316485 Z M19.5341581,8.02104483 C25.475677,8.02104483 26.2767798,12.3254117 26.2767798,16.535993 L26.2767798,25.8520263 C26.2767798,26.0866601 26.0870784,26.2767798 25.8529607,26.2767798 L25.8529607,26.2767798 L20.5874331,26.2767798 C20.3533155,26.2767798 20.1636141,26.0866601 20.1636141,25.8520263 L20.1636141,25.8520263 L20.1630943,17.3858266 C20.15147,15.1769025 19.9281531,13.5139569 17.8481212,13.5139569 C15.8785494,13.5139569 15.1110979,14.6171267 15.1110979,17.4487883 L15.1110979,17.4487883 L15.1110979,25.8519413 C15.1110979,26.0865752 14.9213965,26.2767798 14.6872789,26.2767798 L14.6872789,26.2767798 L9.42370086,26.2767798 C9.18958323,26.2767798 8.99988184,26.0865752 8.99988184,25.8519413 L8.99988184,25.8519413 L8.99988184,8.86791834 C8.99988184,8.63336946 9.18958323,8.44316485 9.42370086,8.44316485 L9.42370086,8.44316485 L14.4755389,8.44316485 C14.7096566,8.44316485 14.899358,8.63336946 14.899358,8.86791834 L14.899358,8.86791834 L14.899358,9.97100314 C15.8493059,8.93384008 17.4154868,8.02104483 19.5341581,8.02104483 Z M3.48091045,1.02673425e-12 C5.39877631,1.02673425e-12 6.95910845,1.56326273 6.95902369,3.48476255 C6.95902369,5.40702693 5.39877631,6.97096927 3.48091045,6.97096927 C1.56151883,6.97096927 -6.66133815e-14,5.40711188 -6.66133815e-14,3.48476255 C-6.66133815e-14,1.56326273 1.56151883,1.02673425e-12 3.48091045,1.02673425e-12 Z"
+                                                                id="linkedin-copy"></path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <a class="footer__social-share-item"
+                            href="https://www.youtube.com/channel/UCMbqEtWNIz5mEqrblj_axBA?view_as=subscriber"
+                            aria-label="YouTube We Learn SQL">
+                            <svg width="35px" height="25px" viewBox="0 0 35 25" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>We Learn SQL Youtube</title>
+                                <defs>
+                                    <polygon id="path-1"
+                                        points="6.22563753e-05 0.000168060308 33.0153986 0.000168060308 33.0153986 23.8710719 6.22563753e-05 23.8710719">
+                                    </polygon>
+                                </defs>
+                                <g id="04-TRACK-DETAILS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="LearnSQL_Track_Details" transform="translate(-1301.000000, -3717.000000)">
+                                        <g id="Footer" transform="translate(0.000000, 3485.000000)">
+                                            <g id="Follow-us" transform="translate(1138.000000, 166.000000)">
+                                                <g id="social" transform="translate(0.000000, 36.000000)">
+                                                    <g id="youtube" transform="translate(136.922156, 0.000000)">
+                                                        <g id="ico_yt" transform="translate(26.276780, 30.030605)">
+                                                            <mask id="mask-2" fill="white">
+                                                                <use xlink:href="#path-1"></use>
+                                                            </mask>
+                                                            <g id="Mask"></g>
+                                                            <path
+                                                                d="M12.4409901,17.0702216 L12.4409901,6.06395203 C15.8616637,7.90589301 19.2530173,9.73270855 22.6948666,11.5847331 C19.2595329,13.4233129 15.8649215,15.2383642 12.4409901,17.0702216 M32.118008,3.1010488 C31.6602893,1.87420855 30.8165232,1.07088028 29.6290607,0.632242879 C27.6010899,-0.122347904 10.0041673,-0.21310047 4.31118903,0.418806287 C3.20354232,0.543170915 2.27507376,1.05575485 1.55184561,1.93134906 C-0.559198698,4.49762996 -0.235049147,17.5223038 0.862824207,20.6347807 C1.31239846,21.9103585 2.15127795,22.7540212 3.3957516,23.1758526 C6.19093064,24.1253933 28.0522931,24.1388382 30.1747396,22.9893056 C30.9614946,22.5657937 31.5804736,21.9708602 31.9583766,21.1305586 C33.3624817,18.029846 33.3185016,6.3210843 32.118008,3.1010488"
+                                                                id="Fill-1" fill="currentColor" mask="url(#mask-2)">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__hr"></div>
+            <div class="footer__bottom-text">
+                <div class="footer__copyright">
+                    Copyright ©-<span id="current-year">2020</span> <a class="footer__vertabelo-link"
+                        href="https://www.vertabelo.com/">Vertabelo SA</a> All rights reserved
+                    <script content-type="text/javascript">
+                        document.getElementById("current-year").innerHTML = new Date().getFullYear();
+                    </script>
+                </div>
+                <div class="footer__logo">
+                    <img src="https://cdn.learnpython.com/lpy/blog/img/vertabelo-logo.svg"
+                        xmlns="http://www.w3.org/2000/svg" alt="Vertabelo">
+                </div>
+                <ul class="footer__policies-list">
+                    <li class="footer__policies-list-item"><a href="/files/terms-of-service">Terms of service</a></li>
+                    <li class="footer__policies-list-item"><a href="/files/privacy-policy">Privacy policy</a></li>
+                    <li class="footer__policies-list-item"><a href="/imprint">Imprint</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
